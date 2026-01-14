@@ -19,23 +19,19 @@
 #
 ---
 include:
-  # Use cornix without dongle
+  # Use cornix without dongle
+
   - board: cornix_left
-    # shield: cornix_indicator
+    # shield: cornix_indicator
+
     artifact-name: cornix_left
 
   - board: cornix_right
-    # shield: cornix_indicator
+    # shield: cornix_indicator
+
     artifact-name: cornix_right
 
   - board: cornix_right
     shield: settings_reset
     artifact-name: reset
-  - board: adafruit_kb2040
-    shield: a_dux_left
-  - board: adafruit_kb2040
-    shield: a_dux_right
-  - board: bluemicro840_v1
-    shield: a_dux_left
-  - board: bluemicro840_v1
-    shield: a_dux_right
+
